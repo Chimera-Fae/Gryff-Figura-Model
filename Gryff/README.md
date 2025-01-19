@@ -1,1 +1,0 @@
-# Gryff Model
