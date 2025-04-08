@@ -260,7 +260,7 @@ squapi.randimation:new(
 
 function events.RENDER(delta, context)
     if world.getLightLevel(player:getPos()) < 5 then
-        models.Avatar.root.Bode.Hed:setSecondaryTexture("CUSTOM", textures["Avatar.eyes"])
+        models.Avatar.root.Bode.Hed:setSecondaryTexture("CUSTOM", textures["eyes"])
     else
         models.Avatar.root.Bode.Hed:setSecondaryTexture(nil)
     end
