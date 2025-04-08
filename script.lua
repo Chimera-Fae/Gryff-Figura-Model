@@ -18,23 +18,23 @@ nameplate.ENTITY:setVisible(false)
 
 local accessories = {
     { -- Hat
-        models.Avatar.root.Bode.Hed.Fez:setPrimaryTexture("CUSTOM", textures["Avatar.fez"]),
-        models.Avatar.root.Bode.Hed.HairBow:setPrimaryTexture("CUSTOM", textures["Avatar.bow"]),
+        models.Avatar.root.Bode.Hed.Fez:setPrimaryTexture("PRIMARY"),
+        models.Avatar.root.Bode.Hed.HairBow:setPrimaryTexture("PRIMARY"),
     },
     { -- Eye
-        models.Avatar.root.Bode.Hed.Goggles:setPrimaryTexture("CUSTOM", textures["Avatar.goggles"]),
+        models.Avatar.root.Bode.Hed.Goggles:setPrimaryTexture("PRIMARY"),
     },
     { -- Mouth
-        models.Avatar.root.Bode.Hed.Nuzzle.Letter:setPrimaryTexture("CUSTOM", textures["Avatar.letter"]),
+        models.Avatar.root.Bode.Hed.Nuzzle.Letter:setPrimaryTexture("PRIMARY"),
     },
     { -- Neck
-        models.Avatar.root.Bode.Bowtie:setPrimaryTexture("CUSTOM", textures["Avatar.bow"]),
-        models.Avatar.root.Bode.Collar:setPrimaryTexture("CUSTOM", textures["Avatar.collar"]),
-        models.Avatar.root.Bode.Scarf:setPrimaryTexture("CUSTOM", textures["Avatar.scarf"]),
+        models.Avatar.root.Bode.Bowtie:setPrimaryTexture("PRIMARY"),
+        models.Avatar.root.Bode.Collar:setPrimaryTexture("PRIMARY"),
+        models.Avatar.root.Bode.Scarf:setPrimaryTexture("PRIMARY"),
     },
     { -- Back
-        models.Avatar.root.Bode.Bag:setPrimaryTexture("CUSTOM", textures["Avatar.bag"]),
-        models.Avatar.root.Bode.ScrollBag:setPrimaryTexture("CUSTOM", textures["Avatar.scrollbag"]),
+        models.Avatar.root.Bode.Bag:setPrimaryTexture("PRIMARY"),
+        models.Avatar.root.Bode.ScrollBag:setPrimaryTexture("PRIMARY"),
     },
 }
 
